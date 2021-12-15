@@ -28,7 +28,7 @@ Tras el análisis exploratorio y extraer aquellas varibales que tenían una alta
 
 Se seleccionaron ategorías con registros de mas del 15% del total de los datos, ya que las categorías de menos registros estaban generando overfitting. De esto, las categorías que se tomaron fueron:
 
-*~~¡¡¡¡¡Insertar imagen!!!!!~~*
+![detallesmodelo](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/detallesmodelo.png "detallesmodelo")
 
 Tras esta depuración, la cantidad de datos que quedaron fue:
 - Train set : 12499
@@ -41,7 +41,7 @@ Se probaron tres modelos que clasificación binaria que permitirían dentificar 
 
 Basandose en el F1-Score como medida de evaluación, se decidió escoger el modelo de LightGBM, debido a que esta medida de evaluación pretende calificar la presición de la clasificación hecha por el modelo en cuestión. Y se le dió importancia principalmente por la característica de los datos, ya que se dentificó un desabalance que podría generar overfiting, por que era importante analizar, principalmente, la precisión con que el modelo hacía cada clasificación. En otras palabras, se le dió mas importancia al hecho de que las ordenes de compra que el modelo clasificara como recahazadas, efectivamente fueran rechazadas, minimizando la probabilidad de que el modelo incurriera en falsos positivos.
 
-~~*incertar imagen F1-Score*~~
+![seleccionmejormodelounotabla](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmejormodelounotabla.png "seleccionmejormodelounotabla") ![seleccionmejormodelounobarras](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmejormodelounobarras.png "seleccionmejormodelounobarras")
 
 ### 2. Modelos predictivo de los estados de cierre en las ordenes de compra aprobadas
 
@@ -62,7 +62,7 @@ Se probaron tres modelos de clasificación multinomial o multiclase que permitir
 
 Nuevamete, basandose en el F1-Score como medida de evaluación, se decidió escoger el modelo de LightGBM, debido a que esta medida de evaluación pretende calificar la presición de la clasificación hecha por el modelo en cuestión. Y se le dió importancia, principalmente, por la característica de los datos, ya que se dentificó un desabalance que podría generar overfiting. Por esto era importante analizar, principalmente, la precisión con que el modelo hacía cada clasificación. En otras palabras, se le dió mas importancia al hecho de que las ordenes de compra no rechazadas que el modelo clasificara como Finalizada, Cancelada, Finalizada Incompleta o Recibida Parcial, efectivamente fueran pertenecieran ese estado de cierre, minimizando la probabilidad de que el modelo incurriera clasificara ordenes de compra en estados de cierre incorrectos.
 
-~~*Insertar imagen F1-Score segundo modelo*~~
+![seleccionmejormodelodostabla](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmejormodelodostabla.png "seleccionmejormodelodostabla") ![seleccionmejormodelodosbarras](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmejormodelodosbarras.png "seleccionmejormodelodosbarras")
 
 #### Ejemplo de resultados
 
@@ -77,7 +77,7 @@ Entonces, el primer valor porcentual de la fila representa el estado de cierre "
 
 En la tercera linea se verifica el estado de cierre real del registro usado para el ejemplo y se verifica que, efectivamente, su estado de cierre es 0, o sea, "Cancelado", con lo cual se puede comprobar que el porcentaje mas alto lo predijo bien el modelo.
 
-~~*Insertar imagen prueba del modelo*~~
+![ejemploresuldatos](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/ejemploresuldatos.png "ejemploresuldatos")
 
 ## Créditos
 
