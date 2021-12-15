@@ -10,4 +10,3 @@ Los resultados se dividen en dos modelos. Del primer modelo se espera que pueda 
 
 Del segundo modelo se espera que permita conocer la probabilidad de que una orden pueda sea recibida completa, recibida parcial o finalizada incompleto, permitiendo identificar la confiabilidad del proveedor y fortaleciendo las caracterisiticas que hacen que la etrega se lo mas optima posible.
 
-(Aun falta...)
