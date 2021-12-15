@@ -1,3 +1,5 @@
+![head]( "head")
+
 # Algoritmos de machine learning para la predicción de órdenes rechazadas y de estados de cierre en transacciones de compra a la empresa Proveindustriales
 
 ## Identificación del problema
