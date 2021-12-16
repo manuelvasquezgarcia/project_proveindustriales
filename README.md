@@ -14,7 +14,7 @@ Del segundo modelo se espera que permita conocer la probabilidad de que una orde
 
 ## Linea de base
 
-![lineadebase](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/Screenshot%20from%202021-12-15%2014-29-19.png "lineadebase")
+![baselinemodelo](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/baselinemodelo.png "baselinemodelo")
 
 En la linea de base se enumeran las variables que fueron tomadas en cuenta para entrenar los modelos y al final de cada línea y con dichas variables, se enuncian los resultados esperados.
 
