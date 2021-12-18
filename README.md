@@ -41,7 +41,7 @@ Se probaron tres modelos de clasificación binaria que permitirían identificar 
 
 Basandose en el F1-Score como medida de evaluación, se decidió escoger el modelo de LightGBM, debido a que esta medida de evaluación pretende calificar la presición de la clasificación hecha por el modelo en cuestión. Y se le dió importancia principalmente por la característica de los datos, ya que se dentificó un desbalance que podría generar overfiting, por lo que fue importante analizar, principalmente, la precisión con que el modelo hacía cada clasificación. En otras palabras, se le dió más importancia al hecho de que las órdenes de compra que el modelo clasificara como recahazadas, efectivamente fueran rechazadas, minimizando la probabilidad de que el modelo incurriera en falsos positivos.
 
-![seleccionmejormodelounotabla](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmejormodelounotabla.png "seleccionmejormodelounotabla") ![seleccionmejormodelounobarras](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmodelounobarras.png "seleccionmejormodelounobarras")
+![seleccionmejormodelounotabla](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmodelounotabla.png "seleccionmejormodelounotabla") ![seleccionmejormodelounobarras](https://github.com/manuelvasquezg/project_proveindustriales/blob/main/Imagenes/seleccionmodelounobarras.png "seleccionmejormodelounobarras")
 
 ### 2. Modelos predictivo de los estados de cierre en las ordenes de compra aprobadas
 
