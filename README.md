@@ -14,7 +14,7 @@ Del segundo modelo se espera que permita conocer la probabilidad de que una orde
 
 ## Linea de base
 
-![baselinemodelo](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/baselinemodelo.png "baselinemodelo")
+![baselinemodelo](Imagenes/baselinemodelo.png "baselinemodelo")
 
 En la linea de base se enumeran las variables que fueron tomadas en cuenta para entrenar los modelos, y al final de cada línea y con dichas variables se enuncian los resultados esperados.
 
@@ -28,7 +28,7 @@ Tras el análisis exploratorio y extraer aquellas varibales que tenían una alta
 
 Se seleccionaron ategorías con registros de mas del 15% del total de los datos, ya que las categorías de menos registros estaban generando overfitting. De esto, las categorías que se tomaron fueron:
 
-![detallesmodelo](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/detallesmodelo.png "detallesmodelo")
+![detallesmodelo](Imagenes/detallesmodelo.png "detallesmodelo")
 
 Tras esta depuración, la cantidad de datos que quedaron fue:
 - Train set : 12499
@@ -41,7 +41,7 @@ Se probaron tres modelos de clasificación binaria que permitirían identificar 
 
 Basandose en el F1-Score como medida de evaluación, se decidió escoger el modelo de LightGBM, debido a que esta medida de evaluación pretende calificar la presición de la clasificación hecha por el modelo en cuestión. Y se le dió importancia principalmente por la característica de los datos, ya que se dentificó un desbalance que podría generar overfiting, por lo que fue importante analizar, principalmente, la precisión con que el modelo hacía cada clasificación. En otras palabras, se le dió más importancia al hecho de que las órdenes de compra que el modelo clasificara como recahazadas, efectivamente fueran rechazadas, minimizando la probabilidad de que el modelo incurriera en falsos positivos.
 
-![seleccionmejormodelounotabla](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/seleccionmodelounotabla.png "seleccionmejormodelounotabla") ![seleccionmejormodelounobarras](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/seleccionmodelounobarras.png "seleccionmejormodelounobarras")
+![seleccionmejormodelounotabla](Imagenes/seleccionmodelounotabla.png "seleccionmejormodelounotabla") ![seleccionmejormodelounobarras](Imagenes/seleccionmodelounobarras.png "seleccionmejormodelounobarras")
 
 ### 2. Modelos predictivo de los estados de cierre en las ordenes de compra aprobadas
 
@@ -62,7 +62,7 @@ Se probaron tres modelos de clasificación multinomial o multiclase que permitir
 
 Nuevamete, basandose en el F1-Score como medida de evaluación, se decidió escoger el modelo de LightGBM, debido a que esta medida de evaluación pretende calificar la presición de la clasificación hecha por el modelo en cuestión. Y se le dió importancia, principalmente, por la característica de los datos, ya que se dentificó un desabalance que podría generar overfiting. Por esto era importante analizar, principalmente, la precisión con que el modelo hacía cada clasificación. En otras palabras, se le dió más importancia al hecho de que las ordenes de compra no rechazadas que el modelo clasificara como Finalizada, Cancelada, Finalizada Incompleta o Recibida Parcial, efectivamente pertenecieran a ese estado de cierre, minimizando la probabilidad de que el modelo clasificara ordenes de compra en estados de cierre incorrectos.
 
-![seleccionmejormodelodostabla](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/seleccionmodelodostabla.png "seleccionmejormodelodostabla") ![seleccionmejormodelodosbarras](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/seleccionmodelodosbarras.png "seleccionmejormodelodosbarras")
+![seleccionmejormodelodostabla](Imagenes/seleccionmodelodostabla.png "seleccionmejormodelodostabla") ![seleccionmejormodelodosbarras](Imagenes/seleccionmodelodosbarras.png "seleccionmejormodelodosbarras")
 
 #### Ejemplo de resultados
 
@@ -79,7 +79,7 @@ Entonces, el primer valor porcentual de la fila representa el estado de cierre "
 
 En la tercera linea se verifica el estado de cierre real del registro usado para el ejemplo y se verifica que, efectivamente, su estado de cierre es 0, o sea, "Cancelado", con lo cual se puede comprobar que el modelo predijo bien el porcentaje más alto.
 
-![ejemploresuldatos](https://github.com/manuelvasquezgarcia/project_proveindustriales/blob/main/Imagenes/ejemploresuldatos.png "ejemploresuldatos")
+![ejemploresuldatos](Imagenes/ejemploresuldatos.png "ejemploresuldatos")
 
 ## Créditos
 
